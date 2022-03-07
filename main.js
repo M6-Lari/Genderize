@@ -21,4 +21,5 @@ function view() {
 		json.then((result) => HEADER.RESULT.textContent = FirstLetter + ' - ' + result.gender);
 
 		HEADER.NAME.value = '';
+	}
 }
